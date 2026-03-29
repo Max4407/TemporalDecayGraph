@@ -1,5 +1,5 @@
 # EEG Dashboard
-EEG dashboard project to display coherence data between EEG electrodes. Implemented using min heap and graph data structures to compare speeds and memory efficiencies with the goal of picking the fastest data structure for real-time processing and visualization
+EEG dashboard project to display coherence data between EEG electrodes. Implemented using min heap and graph data structures to compare speeds and memory efficiencies with the goal of picking the fastest data structure for real-time processing and visualization. We found the graph to be more efficient because of the lower snapshot latency, which is what is used for the visualizer. This way, if the update speed of the visualizer is increased, the snapshots will be quick enough that there is minimal lag and delay. The min heap's advantage is that it stores all the data, whereas the graph updates the data but stores a fixed number of points. This means that the insertion time with smaller data sets will be much faster for the min heap.
 
 <img width="2261" height="1239" alt="image" src="https://github.com/user-attachments/assets/780c4a51-8fbd-4d7e-8d09-893193c39fb5" />
 
