@@ -20,10 +20,8 @@ Files
 - `main.py` — Entry point, runs the visualizer with sample data
 
 To Run:
-
-        make sure all src files are in same directory and the data csv file is in the parent directory (like in this repo)
-
-        enter 'python main.py' in terminal
+- make sure all src files are in same directory and the data csv file is in the parent directory (like in this repo)
+- enter 'python main.py' in terminal
 
         
 
