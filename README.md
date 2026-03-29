@@ -1,9 +1,15 @@
-# TemporalDecayGraph
-Temporal decay graph project to interact with an EEG and increase efficiency of real-time data processing and display, as well as Min-Heap Sliding Window for benchmarking.
+# EEG Dashboard
+EEG dashboard project to display coherence data between EEG electrodes. Implemented using min heap and graph data structures to compare speeds and memory efficiencies with the goal of picking the fastest data structure for real-time processing and visualization
+
+<img width="2261" height="1239" alt="image" src="https://github.com/user-attachments/assets/780c4a51-8fbd-4d7e-8d09-893193c39fb5" />
+
 
 Install required packages:
 
-pip install matplotlib networkx numpy scipy pyedflib
+pip install matplotlib networkx 
+
+Packages for data pipeline (not required to run the program):
+numpy scipy pyedflib
 
 Files
 
@@ -14,8 +20,9 @@ Files
 - `main.py` — Entry point, runs the visualizer with sample data
 
 To Run:
-    Visualizer:
-        ........
+make sure all src files are in same directory and the data csv file is in the parent directory (like in this repo)
+enter 'python main.py' in terminal
+
         
 
     Part of a real time BCI pipeline:
@@ -39,7 +46,7 @@ To Run:
         to a list of five coherence values: [delta, theta, alpha, beta, gamma].
     
 
-References:
+References used while making visualizer:
     https://ifelldh.tec.mx/sites/g/files/vgjovo1101/files/Muse_2_Specifications.pdf
     https://www.epilepsy.com/diagnosis/eeg/how-read
     https://www.geeksforgeeks.org/python/python-visualize-graphs-generated-in-networkx-using-matplotlib/
