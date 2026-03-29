@@ -21,9 +21,9 @@ Files
 
 To Run:
 
-make sure all src files are in same directory and the data csv file is in the parent directory (like in this repo)
+        make sure all src files are in same directory and the data csv file is in the parent directory (like in this repo)
 
-enter 'python main.py' in terminal
+        enter 'python main.py' in terminal
 
         
 
